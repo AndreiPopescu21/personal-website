@@ -1,0 +1,53 @@
+.navbar-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-logo {
+    width: 4em;
+}
+
+.navbar-logo-container {
+    padding: 0.5em 0 0 3em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navbar {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.navbar-list {
+    list-style: none;
+}
+
+.navbar-list li {
+    display: inline;
+    padding-right: 4em;
+    font-weight: bolder;
+}
+
+.navbar-list li a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-list li:hover {
+    color: #7028E5;
+}
+
+.navbar-list li:active {
+    color: #7028E5;
+}
+
+.navbar-button-active {
+    color: #7028E5;
+}
+
+@media (max-width: 830px) {
+    .navbar-container {
+        display: none;
+    }
+}
