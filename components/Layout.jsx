@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 const Layout = ({children}) => {
     return (
         <div>
-             <Head>
+            <Head>
                 <title> Andrei Cristian Popescu </title>
                 <meta name="description" content="Portofolio Website" />
                 <link rel="icon" href="/favicon.ico" />

@@ -2,6 +2,15 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    background-color: white;
+}
+
+.navbar-container-scrolled {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
 .navbar-logo {
@@ -25,7 +34,7 @@
 
 .navbar-list li {
     display: inline;
-    padding-right: 4em;
+    margin-right: 4em;
     font-weight: bolder;
 }
 

@@ -6,3 +6,87 @@ html, body, .main {
     height: 100%;
     font-family: Montserrat;
 }
+
+h1 {
+    font-weight: bolder;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+p {
+    font-size: larger;
+}
+
+.small-container {
+    max-width: 30em;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.row-distanced {
+    gap: .5em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.row {
+    gap: .5em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.paragraph {
+    padding-top: 7em;
+}
+
+.paragraph-container {
+    padding-top: 10em;
+    width: 100%;
+}
+
+.paragraph-content {
+    padding-top: 1em;
+}
+
+.paragraph-title {
+    text-align: center;
+    color: #7028E5;
+    font-weight: bolder;
+}
+
+@media (max-width: 956px) {
+    .row-distanced {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 830px) {
+    .paragraph-container {
+        padding-top: 1em;
+    }
+
+    .paragraph {
+        padding-top: 4em;
+    }
+
+    p {
+        font-size: medium;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: larger;
+    }
+    h2 {
+        font-size: medium;
+    }
+}

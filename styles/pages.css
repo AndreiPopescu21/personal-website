@@ -1,0 +1,35 @@
+.home-icons {
+    margin-top: 2em;
+}
+
+.home-icon {
+    min-width: 2.5em;
+    margin-right: 5em;
+    display: inline-block;
+}
+
+.home-icon:hover {
+    transform: scale(1.1);
+}
+
+.resume-button {
+    padding: .5em;
+    font-size: large;
+    font-weight: bolder;
+    border-color: #7028E5;
+    color: #7028E5;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.resume-button:hover {
+    border-width: medium;
+    border-style: outset;
+}
+
+@media (max-width: 600px) {
+    .home-icon {
+        min-width: 2em;
+        margin-right: 3em;
+    }
+}
