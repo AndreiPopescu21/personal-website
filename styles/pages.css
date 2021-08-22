@@ -28,6 +28,10 @@
 }
 
 @media (max-width: 600px) {
+    .resume-button {
+        font-size: medium;
+    }
+
     .home-icon {
         min-width: 2em;
         margin-right: 3em;

@@ -10,14 +10,18 @@ const HomePage = () => {
                     <div className="small-container" style={{padding: "1em"}}>
                         <p>
                             I am  a second year Computer Science student
-                            at The University of Manchester, passionate about 
-                            science, technology and computer programming.
+                            at <span style={{color: "#7028E5"}}> The University of Manchester </span>, mainly interested
+                            into Machine Learning and Artifical Intelligence.
                         </p>
                         
                         <p>
-                            I am mainly interested in Artificial Inteligence 
-                            and Machine Learning and I hope I will pursue
-                            a successful research career in this domain.
+                            I am the technical team lead at 
+                            <a style={{color: "#7028E5"}} href="https://gdsc.community.dev/university-of-manchester/" target="_blank"> Google Developer Student Club Manchester </a> 
+                            and I am also software engineer at 
+                            <a style={{color: "#7028E5"}} href="https://hyperloopmanchester.com/" target="_blank"> Hyperloop Manchester </a>
+                            and 
+                            <a style={{color: "#7028E5"}} href="https://unicsmcr.com/" target="_blank"> UniCS </a>, 
+                            which is the biggest tech society at The University of Manchester.
                         </p>
 
                         <button className="resume-button"> 

@@ -13,14 +13,42 @@ h1 {
 
 h2 {
     font-weight: lighter;
+    color: #3b3b3b;
 }
 
 p {
     font-size: larger;
+    color: #3b3b3b;
+}
+
+a {
+    text-decoration: none; 
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.chip {
+    display: inline-block;
+    border-color: #7028E5;
+    color: #7028E5;
+    padding: .4em;
+    border-radius: 10px;
+    background-color: white;
+    border-style: solid;
+    font-weight: bolder;
+    margin: .5em;
 }
 
 .small-container {
     max-width: 30em;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40em;
 }
 
 .responsive-image {
