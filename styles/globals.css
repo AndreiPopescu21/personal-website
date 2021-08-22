@@ -29,6 +29,11 @@ a:hover {
     font-weight: bold;
 }
 
+footer {
+    text-align: center;
+    padding: 1.5em;
+}
+
 .chip {
     display: inline-block;
     border-color: #7028E5;
@@ -49,6 +54,12 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     max-width: 40em;
+}
+
+.large-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60em;
 }
 
 .responsive-image {

@@ -15,7 +15,9 @@ const Layout = ({children}) => {
                 {children}
             </main>
 
+            <hr/>
             <footer>
+                Copyright © 2021 Andrei Cristian Popescu
             </footer>
         </div>
     );

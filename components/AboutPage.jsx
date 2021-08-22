@@ -15,16 +15,16 @@ const HomePage = () => {
                         </p>
                         
                         <p>
-                            I am the technical team lead at 
+                            I am technical team lead at 
                             <a style={{color: "#7028E5"}} href="https://gdsc.community.dev/university-of-manchester/" target="_blank"> Google Developer Student Club Manchester </a> 
-                            and I am also software engineer at 
+                            , software engineer at 
                             <a style={{color: "#7028E5"}} href="https://hyperloopmanchester.com/" target="_blank"> Hyperloop Manchester </a>
-                            and 
-                            <a style={{color: "#7028E5"}} href="https://unicsmcr.com/" target="_blank"> UniCS </a>, 
+                            and game developer at
+                            <a style={{color: "#7028E5"}} href="https://unicsmcr.com/" target="_blank"> UniCS Manchester </a>, 
                             which is the biggest tech society at The University of Manchester.
                         </p>
 
-                        <button className="resume-button"> 
+                        <button className="button"> 
                             Check my Resume 
                         </button>
                     </div>
