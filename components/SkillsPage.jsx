@@ -1,11 +1,4 @@
-
-const Chip = ({content}) => {
-    return (
-        <div className="chip">
-                {content}
-        </div>
-    );
-}
+import Chip from "./Chip";
 
 const SkillsPage = () => {
     const skills = ["Algorithms", "Data Structures", "Machine Learning", "Digital Design",
@@ -18,7 +11,7 @@ const SkillsPage = () => {
             <div className="container" style={{textAlign: "center"}}>
                 {
                 skills.map((skill, index) => (
-                    <Chip key={index} content={skill}/>
+                    <Chip key={index} content={skill} className="chip"/>
                 ))
                 }
             </div>

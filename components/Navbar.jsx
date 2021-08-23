@@ -26,12 +26,12 @@ const Navbar = () => {
             </div>
             <nav className="navbar">
                 <ul className="navbar-list">
-                    <li><Link href="/" passHref>Home</Link></li>
-                    <li><Link href="/" passHref>About</Link></li>
-                    <li><Link href="/" passHref>Education</Link></li>
-                    <li><Link href="/" passHref>Skills</Link></li>
-                    <li><Link href="/" passHref>Projects</Link></li>
-                    <li><Link href="/" passHref>Contact</Link></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             </nav>
         </div>

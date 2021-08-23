@@ -7,6 +7,10 @@ html, body, .main {
     font-family: Montserrat;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 h1 {
     font-weight: bolder;
 }
@@ -46,6 +50,19 @@ footer {
     margin: .5em;
 }
 
+.small-chip {
+    display: inline-block;
+    border-color: #7028E5;
+    color: #7028E5;
+    padding: .4em;
+    border-radius: 10px;
+    background-color: white;
+    border-style: solid;
+    font-size: small;
+    font-weight: bold;
+    margin: .5em;
+}
+
 .small-container {
     max-width: 30em;
 }
@@ -62,9 +79,28 @@ footer {
     max-width: 60em;
 }
 
+.card {
+    text-align: center;
+    width: 20em;
+    height: 30em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.card-text {
+    padding: .3em;
+    min-height: 8em;
+}
+
 .responsive-image {
     width: 100%;
     height: auto;
+    vertical-align: middle;
+}
+
+.responsive-fixed-image {
+    width: 100%;
+    height: 9em;
     vertical-align: middle;
 }
 
@@ -77,6 +113,13 @@ footer {
 
 .row {
     gap: .5em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.distanced-row {
+    gap: 2em;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
