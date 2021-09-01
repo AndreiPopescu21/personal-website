@@ -11,15 +11,15 @@ const HomePage = () => {
                         <p>
                             I am  a second year Computer Science student
                             at <span style={{color: "#7028E5"}}> The University of Manchester </span>, mainly interested
-                            into Machine Learning and Artifical Intelligence.
+                            in Machine Learning and Artificial Intelligence.
                         </p>
                         
                         <p>
-                            I am technical team lead at 
+                            I am the technical team lead at 
                             <a style={{color: "#7028E5"}} href="https://gdsc.community.dev/university-of-manchester/" target="_blank"> Google Developer Student Club Manchester </a> 
-                            , software engineer at 
+                            , a software engineer at 
                             <a style={{color: "#7028E5"}} href="https://hyperloopmanchester.com/" target="_blank"> Hyperloop Manchester </a>
-                            and game developer at
+                            and a game developer at
                             <a style={{color: "#7028E5"}} href="https://unicsmcr.com/" target="_blank"> UniCS Manchester </a>, 
                             which is the biggest tech society at The University of Manchester.
                         </p>
