@@ -11,13 +11,13 @@ const ProjectsPage = () => {
                              content="I am the technical team lead and I am responsible for managing the
                                      technical team. I am also responsible for creating workshops and hackathons related to 
                                      Google technologies and connecting with sponsors and other companies."
-                             imageLink="/images/GSDC-image.png"
+                             imageLink="/images/GDSC-image.png"
                              frameworks={["Leadership", "Communication", "Workshop Design", "Management"]}/>
 
                 <ProjectCard name="Hyperloop Manchester"
                              content="I am a software engineer and I contributed to the software design of the Pod.
                                       I developed C/C++ programs for Teensy 4.1 and Raspberry Pi to control the Pod
-                                      behaviour and I created and connected the web interface that controls the Pod
+                                      behaviour and I created and connected the web interface that control the Pod
                                       remotely."
                              imageLink="/images/hyperloop-image.png"
                              frameworks={["C/C++", "Embedded Systems", "ROS", "RTOS", "Linux"]}/>
@@ -42,7 +42,7 @@ const ProjectsPage = () => {
 
                 <ProjectCard name="Starship Invaders"
                              content="This is a Python game created as my University programming coursework.
-                                     The game's UI was built using TKinter.
+                                     The game's UI was built using Tkinter.
                                      It is a slightly modified version of the retro game Space Invaders."
                              imageLink="/images/starship-invaders-image.png"
                              frameworks={["Python", "TKinter"]}
@@ -50,12 +50,12 @@ const ProjectsPage = () => {
 
             </div>
             
-            <h1 style={{textAlign: "center", paddingTop: "2em"}}> Hackatons </h1>
+            <h1 style={{textAlign: "center", paddingTop: "2em"}}> Hackathons </h1>
             <div className="large-container distanced-row" style={{textAlign: "center", paddingTop: "1em"}}>
                 <ProjectCard name="Spread Bike"
                              content="This is a PWA built with one of my friends at START Hack 2021.
-                                     It's role is to encourage bike riding and it includes several
-                                     badges and achievements, an API to find nearby bikes rent places
+                                     Its role is to encourage bike riding and it includes several
+                                     badges and achievements, an API to find nearby places to rent bikes
                                      and some stats trackers."
                              imageLink="/images/spread-bike-image.png"
                              frameworks={["React.js", "Node.js", "MongoDB", "PWA", "Mapbox", "Google Auth"]}
