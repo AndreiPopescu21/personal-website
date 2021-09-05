@@ -7,7 +7,7 @@ const Layout = ({children}) => {
             <Head>
                 <title> Andrei Cristian Popescu </title>
                 <meta name="description" content="Portofolio Website" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/favicon.svg" />
             </Head>
 
             <Navbar/>
