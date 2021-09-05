@@ -24,9 +24,6 @@ const HomePage = () => {
                             which is the biggest tech society at The University of Manchester.
                         </p>
 
-                        <button className="button"> 
-                            Check my Resume 
-                        </button>
                     </div>
             </div>
         </div>
